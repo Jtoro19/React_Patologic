@@ -90,7 +90,7 @@ export default function Table() {
                 </table>
             </div>
             {showModal && (
-                <div className="modal" style={{ display: 'block' }}>
+                <div className="modal modal-custom" style={{ display: 'block' }}>
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
@@ -111,7 +111,7 @@ export default function Table() {
                                             required
                                         />
                                     </div>
-                                    <button type="submit" className="btn btn-primary w-100">Guardar cambios</button>
+                                    <button type="submit" className="btn btn-custom w-100">Guardar cambios</button>
                                 </form>
                             </div>
                         </div>
